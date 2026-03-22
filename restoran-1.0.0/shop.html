@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Shop | Milestone Creative Solutions</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="shop, catalog, school supplies Nairobi" name="keywords">
+    <meta content="Browse Milestone Creative Solutions product catalog — stationery, lab equipment, furniture and assessments." name="description">
+
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0 d-flex align-items-center text-decoration-none">
+                    <img src="img/logo-large.png" alt="Milestone Creative Solutions" class="navbar-brand-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Products & Services</a>
+                        <a href="shop.html" class="nav-item nav-link active">Shop</a>
+                        <a href="testimonial.html" class="nav-item nav-link">Testimonials</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="contact.html" class="btn btn-warning py-2 px-4 fw-bold">Get a Quote</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Shop</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Shop</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-4">
+            <div class="container px-lg-5">
+                <img src="img/bg-hero.jpg" class="img-fluid shadow shop-page-banner wow fadeIn" data-wow-delay="0.1s"
+                    alt="School and office supplies catalog"
+                    style="background: #E8EFFF; min-height: 220px; display: block;">
+            </div>
+        </div>
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp mb-4">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Catalog</h5>
+                    <h1 class="mb-4">Browse Our Products</h1>
+                </div>
+
+                <div class="shop-filter text-center mb-5 wow fadeInUp">
+                    <ul class="nav nav-pills d-inline-flex flex-wrap justify-content-center border-bottom mb-0">
+                        <li class="nav-item">
+                            <a class="nav-link pb-3 active" href="#" data-filter="all" role="button">All</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pb-3" href="#" data-filter="stationery" role="button">Books & Stationery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pb-3" href="#" data-filter="artsports" role="button">Art & Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pb-3" href="#" data-filter="lab" role="button">Lab Equipment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pb-3" href="#" data-filter="furniture" role="button">School Furniture</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pb-3" href="#" data-filter="assessments" role="button">Exams & Assessments</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="text-center text-muted small mb-4">Prices in <strong>Ksh</strong> (Kenya Shillings) are indicative retail; bulk and institutional quotes may differ.</p>
+
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/book%201.png" alt="Targeter CBC Tracker Grade 1" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Books &amp; Stationery</span>
+                                <h6 class="mb-1">Targeter CBC Tracker Grade 1</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 1,150 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Wings of Excellence edition; competency-based curriculum learner support</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/book%202.png" alt="Targeter CBC Tracker Grade 2" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Books &amp; Stationery</span>
+                                <h6 class="mb-1">Targeter CBC Tracker Grade 2</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 1,150 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Wings of Excellence edition; competency-based curriculum learner support</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/book%203.png" alt="Targeter CBC Tracker Grade 3" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Books &amp; Stationery</span>
+                                <h6 class="mb-1">Targeter CBC Tracker Grade 3</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 1,150 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Wings of Excellence edition; competency-based curriculum learner support</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/book%204.png" alt="Targeter CBC Tracker Grade 4" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Books &amp; Stationery</span>
+                                <h6 class="mb-1">Targeter CBC Tracker Grade 4</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 1,150 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Rationalised edition; CBC tracker for grade 4 learners</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/book%205.png" alt="Targeter CBC Tracker Grade 5" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Books &amp; Stationery</span>
+                                <h6 class="mb-1">Targeter CBC Tracker Grade 5</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 1,150 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Rationalised edition; CBC tracker for grade 5 learners</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/book%206.png" alt="Targeter CBC Tracker Grade 6" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Books &amp; Stationery</span>
+                                <h6 class="mb-1">Targeter CBC Tracker Grade 6</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 1,150 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Rationalised edition; CBC tracker for grade 6 learners</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/book%207.png" alt="Targeter CBC Tracker Grade 7 Volume 1" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Books &amp; Stationery</span>
+                                <h6 class="mb-1">Targeter CBC Tracker Grade 7 Volume 1</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 1,250 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">English, Kiswahili, Social Studies, CRE and IRE</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/book%208.png" alt="Targeter CBC Tracker Grade 7 Volume 2" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Books &amp; Stationery</span>
+                                <h6 class="mb-1">Targeter CBC Tracker Grade 7 Volume 2</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 1,250 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Mathematics, Integrated Science, Agriculture, Pre-Technical Studies and Creative Arts &amp; Sports</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/book%209.png" alt="Targeter CBC Tracker Grade 8 Volume 1" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Books &amp; Stationery</span>
+                                <h6 class="mb-1">Targeter CBC Tracker Grade 8 Volume 1</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 1,250 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">English, Kiswahili, Social Studies, CRE and IRE</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/book%2010.png" alt="The 'A' Finder Agriculture Revision Book" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Books &amp; Stationery</span>
+                                <h6 class="mb-1">The 'A' Finder Agriculture Revision Book</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 950 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Revised edition; Targeter Series agriculture revision book</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/sta%201.jpg" alt="SAFQA Copy A4 Multi-Use Paper 80 gsm (500 Sheets)" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Stationery</span>
+                                <h6 class="mb-1">SAFQA Copy A4 Multi-Use Paper 80 gsm (500 Sheets)</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 630 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">A4, 80 gsm, 500-sheet ream as shown on pack</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/sta%202.jpg" alt="Helix Oxford Mathematical Instruments Complete Accuracy" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Stationery</span>
+                                <h6 class="mb-1">Helix Oxford Mathematical Instruments Complete Accuracy</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 295 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Classic metal-tin geometry set shown in the image</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/sta%203.jpg" alt="aOne A4 Multi-Purpose Quality Paper 80 gsm" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Stationery</span>
+                                <h6 class="mb-1">aOne A4 Multi-Purpose Quality Paper 80 gsm</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 870 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">A4 photocopy paper ream; 80 gsm</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/sta%204.jpg" alt="Counter Book (Assorted 2, 3 &amp; 6 Quire)" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Stationery</span>
+                                <h6 class="mb-1">Counter Book (Assorted 2, 3 &amp; 6 Quire)</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 175 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Counter books shown in mixed quire sizes; price from the 2-quire entry point</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="stationery">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/sta%205.jpg" alt="BIC Orange Original Fine Ball Pens (Box of 20)" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Stationery</span>
+                                <h6 class="mb-1">BIC Orange Original Fine Ball Pens (Box of 20)</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 410 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Fine 0.8 mm orange-barrel box pack as pictured</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="artsports">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/ball%201.jpg" alt="Mikasa PKC55-BR Size 5 Football" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Art &amp; Sports</span>
+                                <h6 class="mb-1">Mikasa PKC55-BR Size 5 Football</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 2,280 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Original tubeless football as pictured; often sold with a free pump</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="artsports">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/ball%202.jpg" alt="Size 7 Rubber Basketball" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Art &amp; Sports</span>
+                                <h6 class="mb-1">Size 7 Rubber Basketball</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 1,800 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Standard orange pebble-grip basketball shown in the image</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="artsports">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/ball%203.jpg" alt="Mikasa FT-5 Size 5 Football" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Art &amp; Sports</span>
+                                <h6 class="mb-1">Mikasa FT-5 Size 5 Football</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 1,090 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Red-and-white Mikasa size 5 football, commonly bundled with pump and needle</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="artsports">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/ball%204.jpg" alt="San Francisco 49ers American Football" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Art &amp; Sports</span>
+                                <h6 class="mb-1">San Francisco 49ers American Football</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 2,900 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">American football with 49ers logo as shown</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="artsports">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/ball%205.jpg" alt="Mikasa MVA330 Official Volleyball" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Art &amp; Sports</span>
+                                <h6 class="mb-1">Mikasa MVA330 Official Volleyball</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 2,320 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Blue-and-yellow official ball shown with free pump promotion</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="lab">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/lab%201.jpg" alt="Crucible Tongs (150 mm)" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Lab Equipment</span>
+                                <h6 class="mb-1">Crucible Tongs (150 mm)</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 225 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Stainless steel crucible tongs as shown</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="lab">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/lab%202.jpg" alt="500 ml Laboratory Beaker" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Lab Equipment</span>
+                                <h6 class="mb-1">500 ml Laboratory Beaker</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 1,200 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Graduated 500 ml beaker as shown</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="lab">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/lab%203.webp" alt="Laboratory Apparatus" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Lab Equipment</span>
+                                <h6 class="mb-1">Laboratory Apparatus</h6>
+                                <p class="price-line mb-2 text-primary">Request price</p>
+                                <p class="small text-muted flex-grow-1">Image file could not be decoded locally, so this item needs manual naming</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="lab">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/lab%204.jpg" alt="25 ml Glass Burette with Stopcock" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Lab Equipment</span>
+                                <h6 class="mb-1">25 ml Glass Burette with Stopcock</h6>
+                                <p class="price-line mb-2 text-primary">Request price</p>
+                                <p class="small text-muted flex-grow-1">Graduated glass burette as shown</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="lab">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/lab%205.jpg" alt="Laboratory Thermometer" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Lab Equipment</span>
+                                <h6 class="mb-1">Laboratory Thermometer</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 250 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Glass laboratory thermometer shown in the image</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="lab">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/lab%206.jpg" alt="Hand Lens Magnifier" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Lab Equipment</span>
+                                <h6 class="mb-1">Hand Lens Magnifier</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 180 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Hand-held magnifying glass for science observation</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="lab">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/lab%207.jpg" alt="Laboratory Spoon Spatula" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Lab Equipment</span>
+                                <h6 class="mb-1">Laboratory Spoon Spatula</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 140 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Stainless steel double-ended spoon spatula</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="lab">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/lab%208.jpg" alt="Spring Balance 100 g / 1 N" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Lab Equipment</span>
+                                <h6 class="mb-1">Spring Balance 100 g / 1 N</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 390 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Dual-scale spring balance marked in grams and newtons</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="lab">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/lab%209.jpg" alt="250 ml Volumetric Flask" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Lab Equipment</span>
+                                <h6 class="mb-1">250 ml Volumetric Flask</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 340 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Glass volumetric flask marked 250 ml</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="lab">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/lab%2010.jpg" alt="Laboratory Wash Bottle (Assorted Sizes)" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Lab Equipment</span>
+                                <h6 class="mb-1">Laboratory Wash Bottle (Assorted Sizes)</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 125 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Plastic wash bottles as shown; price based on standard 500 ml bottle</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="lab">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/lab%2011.png" alt="Glass Test Tube" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Lab Equipment</span>
+                                <h6 class="mb-1">Glass Test Tube</h6>
+                                <p class="price-line mb-2 text-primary">Ksh 90 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Single glass test tube as shown</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="furniture">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/furniture%201.jpg" alt="Single Student Desk &amp; Moulded Chair Set" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Furniture</span>
+                                <h6 class="mb-1">Single Student Desk &amp; Moulded Chair Set</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 12,500 <span class="text-muted fw-normal small">/ seat</span></p>
+                                <p class="small text-muted flex-grow-1">Steel frame; laminated top; stackable chairs available</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="furniture">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/furniture%202.jpg" alt="Wall-Mounted Magnetic Whiteboard (120 Ã— 90 cm)" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Furniture</span>
+                                <h6 class="mb-1">Wall-Mounted Magnetic Whiteboard (120 Ã— 90 cm)</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 18,950 <span class="text-muted fw-normal small">/ board</span></p>
+                                <p class="small text-muted flex-grow-1">Aluminium frame; markers and erasers sold separately</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="furniture">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/furniture%203.jpg" alt="Teacher Desk with Lockable Pedestal Drawers" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Furniture</span>
+                                <h6 class="mb-1">Teacher Desk with Lockable Pedestal Drawers</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 42,000 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Laminate finish; cable port; heavy-duty castors optional</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="furniture">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/furniture%204.jpg" alt="Double-Sided Library Bookcase (180 cm)" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Furniture</span>
+                                <h6 class="mb-1">Double-Sided Library Bookcase (180 cm)</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 24,500 <span class="text-muted fw-normal small">/ unit</span></p>
+                                <p class="small text-muted flex-grow-1">Adjustable shelves; steel and wood options</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="furniture">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/furniture%205.jpg" alt="Ergonomic Mesh Office Chair" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Furniture</span>
+                                <h6 class="mb-1">Ergonomic Mesh Office Chair</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 6,800 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Lumbar support; height and tilt adjustment</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="furniture">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/furniture%206.jpg" alt="Height-Adjustable Lab Stool" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Furniture</span>
+                                <h6 class="mb-1">Height-Adjustable Lab Stool</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 3,200 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Polypropylene seat; chemical-resistant base</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="furniture">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/furniture%207.jpg" alt="Six-Door Steel Student Locker" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Furniture</span>
+                                <h6 class="mb-1">Six-Door Steel Student Locker</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 18,000 <span class="text-muted fw-normal small">/ bay</span></p>
+                                <p class="small text-muted flex-grow-1">Ventilated; padlock hasp; powder-coated</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="furniture">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/furniture%208.jpg" alt="Rectangular Conference Table (240 Ã— 120 cm)" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Furniture</span>
+                                <h6 class="mb-1">Rectangular Conference Table (240 Ã— 120 cm)</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 38,500 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Seats 8â€“10; cable management optional</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="furniture">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/furniture%209.jpg" alt="Four-Drawer Steel Filing Cabinet (A4)" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Furniture</span>
+                                <h6 class="mb-1">Four-Drawer Steel Filing Cabinet (A4)</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 14,200 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Anti-tilt; central locking</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="furniture">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/furniture%2010.jpg" alt="Cork Notice Board with Aluminium Frame (120 Ã— 90 cm)" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Furniture</span>
+                                <h6 class="mb-1">Cork Notice Board with Aluminium Frame (120 Ã— 90 cm)</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 9,500 <span class="text-muted fw-normal small">ea.</span></p>
+                                <p class="small text-muted flex-grow-1">Pinboard for corridors and classrooms</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="assessments">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/exam%201.png" alt="Targeter Wings Monitoring Learner's Progress Grade 5 - 2024 Integrated Science" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Assessments</span>
+                                <h6 class="mb-1">Targeter Wings Monitoring Learner's Progress Grade 5 - 2024 Integrated Science</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 100 <span class="text-muted fw-normal small">/ booklet</span></p>
+                                <p class="small text-muted flex-grow-1">Integrated Science monitoring booklet as shown</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="assessments">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/exam%202.jpg" alt="Targeter Wings Pre-Primary 1 - Year 2025 Monitoring Learner's Progress Language Activities" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Assessments</span>
+                                <h6 class="mb-1">Targeter Wings Pre-Primary 1 - Year 2025 Monitoring Learner's Progress Language Activities</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 100 <span class="text-muted fw-normal small">/ booklet</span></p>
+                                <p class="small text-muted flex-grow-1">PP1 language activities monitoring booklet as shown</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 shop-card" data-category="assessments">
+                        <div class="product-card rounded overflow-hidden shadow-sm h-100 d-flex flex-column">
+                            <img class="img-fluid w-100" src="img/exam%203.png" alt="Kenya Junior School Education Assessment Creative Arts and Sports Paper 1 Grade 9 - 2026" style="background: #E8EFFF; min-height: 200px; display: block; object-fit: cover;">
+                            <div class="p-3 flex-grow-1 d-flex flex-column">
+                                <span class="badge bg-primary mb-2 align-self-start">Assessments</span>
+                                <h6 class="mb-1">Kenya Junior School Education Assessment Creative Arts and Sports Paper 1 Grade 9 - 2026</h6>
+                                <p class="price-line mb-2 text-primary">From Ksh 100 <span class="text-muted fw-normal small">/ booklet</span></p>
+                                <p class="small text-muted flex-grow-1">Grade 9 school-based assessment paper shown in the image</p>
+                                <a href="contact.html" class="btn btn-warning btn-sm fw-bold">Request a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5 py-4">
+                    <p class="mb-3">Can't find what you need? Contact us for a customized supply package.</p>
+                    <a href="contact.html" class="btn btn-warning fw-bold">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="service.html">Products & Services</a>
+                        <a class="btn btn-link" href="shop.html">Shop</a>
+                        <a class="btn btn-link" href="testimonial.html">Testimonials</a>
+                        <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Nairobi, Kenya</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0726 578 235 / 0794 973 723</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@milestonecreative.co.ke</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Working Hours</h4>
+                        <h6 class="text-light fw-normal">Monday - Friday</h6>
+                        <p>8AM - 6PM</p>
+                        <h6 class="text-light fw-normal">Saturday</h6>
+                        <p>9AM - 4PM</p>
+                        <h6 class="text-light fw-normal">Sunday</h6>
+                        <p>Closed</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Need Supplies?</h4>
+                        <p>Contact us today and get a customized supply package for your institution.</p>
+                        <a href="contact.html" class="btn btn-warning fw-bold w-100">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; Milestone Creative Solutions Limited, All Rights Reserved.
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="index.html">Home</a>
+                                <a href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <a href="https://wa.me/254726578235" target="_blank"
+       style="position: fixed; bottom: 45px; right: 45px; width: 50px; height: 50px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(0,0,0,0.2); z-index: 9999; text-decoration: none;">
+        <i class="fab fa-whatsapp" style="color: white; font-size: 24px;"></i>
+    </a>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+document.querySelectorAll('[data-filter]')
+  .forEach(tab => {
+    tab.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelectorAll('[data-filter]')
+        .forEach(t => t.classList.remove('active'));
+      this.classList.add('active');
+      const filter = this.getAttribute('data-filter');
+      document.querySelectorAll('[data-category]')
+        .forEach(card => {
+          if(filter === 'all' || 
+             card.getAttribute('data-category') 
+             === filter) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+    });
+  });
+    </script>
+</body>
+</html>
